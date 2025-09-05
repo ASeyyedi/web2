@@ -1,0 +1,507 @@
+{
+  "course": {
+    "id": 1,
+    "title": "Web 2 — Design and Development",
+    "summary": "Explore advanced web development concepts and client-side programming.",
+    "description": "This course covers advanced web topics, SPA principles, state management, and security and performance best practices.",
+    "units": 3,
+    "term": "Fall 2025",
+    "cover": "/react.jpg",
+    "instructor": {
+      "name": "Dr. Teacher",
+      "bio": "Experienced in teaching and researching web applications.",
+      "avatar": "https://share.google/images/LPmNMvi7ozrmULIgq"
+    }
+  },
+  "students": [
+    {
+      "id": "1",
+      "name": "Ali Rezaei",
+      "about": "Frontend enthusiast, skilled in React.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "ali.rezaei@example.com",
+      "github": "https://github.com/alirezaei",
+      "linkedin": "https://linkedin.com/in/alirezaei",
+      "courses": [
+        "Web 2 — Design",
+        "React Basics"
+      ],
+      "gpa": 3.8,
+      "skills": [
+        "React",
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "hobbies": [
+        "Gaming",
+        "Photography",
+        "Traveling"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sara Mohammadi",
+      "about": "Passionate about UI design.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "sara.mohammadi@example.com",
+      "github": "https://github.com/saramohammadi",
+      "linkedin": "https://linkedin.com/in/saramohammadi",
+      "courses": [
+        "UI Design",
+        "Web 2 — Design"
+      ],
+      "gpa": 3.9,
+      "skills": [
+        "Figma",
+        "CSS",
+        "HTML",
+        "Adobe XD"
+      ],
+      "hobbies": [
+        "Drawing",
+        "Traveling",
+        "Blogging"
+      ]
+    },
+    {
+      "name": "Mohammad Rezaei",
+      "about": "Focused on backend development and Node.js.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "mohammad.rezaei@example.com",
+      "github": "https://github.com/mrezaei",
+      "linkedin": "https://linkedin.com/in/mrezaei",
+      "courses": [
+        "Node.js",
+        "Database Systems"
+      ],
+      "gpa": 3.9,
+      "skills": [
+        "Node.js",
+        "Express",
+        "SQL",
+        "MongoDB"
+      ],
+      "hobbies": [
+        "Coding",
+        "Reading",
+        "Basketball"
+      ],
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Zahra Ahmadi",
+      "about": "UX designer, interested in design systems.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "zahra.ahmadi@example.com",
+      "github": "https://github.com/zahraahmadi",
+      "linkedin": "https://linkedin.com/in/zahraahmadi",
+      "courses": [
+        "UX Design",
+        "Design Systems"
+      ],
+      "gpa": 3.85,
+      "skills": [
+        "UX Research",
+        "Figma",
+        "Prototyping"
+      ],
+      "hobbies": [
+        "Photography",
+        "Painting"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Reza Karimi",
+      "about": "Interested in DevOps and Docker.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "reza.karimi@example.com",
+      "github": "https://github.com/rezakarimi",
+      "linkedin": "https://linkedin.com/in/rezakarimi",
+      "courses": [
+        "DevOps Fundamentals",
+        "Docker"
+      ],
+      "gpa": 3.6,
+      "skills": [
+        "Docker",
+        "CI/CD",
+        "AWS"
+      ],
+      "hobbies": [
+        "Gaming",
+        "Cycling"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Maryam Abbasi",
+      "about": "AI researcher with Python experience.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "maryam.abbasi@example.com",
+      "github": "https://github.com/maryamabbasi",
+      "linkedin": "https://linkedin.com/in/maryamabbasi",
+      "courses": [
+        "AI Fundamentals",
+        "Python for AI"
+      ],
+      "gpa": 3.9,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "TensorFlow"
+      ],
+      "hobbies": [
+        "Reading",
+        "Chess",
+        "Cooking"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Hossein Moradi",
+      "about": "Database and SQL expert.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "hossein.moradi@example.com",
+      "github": "https://github.com/hosseinmoradi",
+      "linkedin": "https://linkedin.com/in/hosseinmoradi",
+      "courses": [
+        "SQL Advanced",
+        "Database Systems"
+      ],
+      "gpa": 3.7,
+      "skills": [
+        "SQL",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB"
+      ],
+      "hobbies": [
+        "Reading",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Elham Naderi",
+      "about": "Web security enthusiast.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "elham.naderi@example.com",
+      "github": "https://github.com/elhamnaderi",
+      "linkedin": "https://linkedin.com/in/elhamnaderi",
+      "courses": [
+        "Cybersecurity Basics",
+        "Web Security"
+      ],
+      "gpa": 3.8,
+      "skills": [
+        "Penetration Testing",
+        "Security Audits",
+        "Python"
+      ],
+      "hobbies": [
+        "Cycling",
+        "Traveling"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Mehdi Ghasemi",
+      "about": "Interested in TypeScript and frontend frameworks.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "mehdi.ghasemi@example.com",
+      "github": "https://github.com/mehdighasemi",
+      "linkedin": "https://linkedin.com/in/mehdighasemi",
+      "courses": [
+        "TypeScript Basics",
+        "React Advanced"
+      ],
+      "gpa": 3.7,
+      "skills": [
+        "TypeScript",
+        "React",
+        "Redux"
+      ],
+      "hobbies": [
+        "Coding",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Negar Mousavi",
+      "about": "Graphic and animation designer.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "negar.mousavi@example.com",
+      "github": "https://github.com/negarmousavi",
+      "linkedin": "https://linkedin.com/in/negarmousavi",
+      "courses": [
+        "Graphic Design",
+        "Animation Basics"
+      ],
+      "gpa": 3.9,
+      "skills": [
+        "Photoshop",
+        "Illustrator",
+        "After Effects"
+      ],
+      "hobbies": [
+        "Painting",
+        "Photography"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Kian Razavi",
+      "about": "Algorithm-focused programmer.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "kian.razavi@example.com",
+      "github": "https://github.com/kianrazavi",
+      "linkedin": "https://linkedin.com/in/kianrazavi",
+      "courses": [
+        "Data Structures",
+        "Algorithms"
+      ],
+      "gpa": 3.6,
+      "skills": [
+        "C++",
+        "Python",
+        "JavaScript"
+      ],
+      "hobbies": [
+        "Chess",
+        "Problem Solving"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Elahe Hasani",
+      "about": "Advanced CSS designer.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "elahe.hasani@example.com",
+      "github": "https://github.com/elahehasani",
+      "linkedin": "https://linkedin.com/in/elahehasani",
+      "courses": [
+        "CSS Advanced",
+        "UI Design"
+      ],
+      "gpa": 3.85,
+      "skills": [
+        "CSS3",
+        "Sass",
+        "Tailwind",
+        "Responsive Design"
+      ],
+      "hobbies": [
+        "Drawing",
+        "Blogging"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Amir Kazemi",
+      "about": "Active student in GraphQL.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "amir.kazemi@example.com",
+      "github": "https://github.com/amirkazemi",
+      "linkedin": "https://linkedin.com/in/amirkazemi",
+      "courses": [
+        "GraphQL Basics",
+        "React Advanced"
+      ],
+      "gpa": 3.75,
+      "skills": [
+        "GraphQL",
+        "React",
+        "Apollo"
+      ],
+      "hobbies": [
+        "Gaming",
+        "Traveling"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Mona Sharifi",
+      "about": "Interested in Progressive Web Apps.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "mona.sharifi@example.com",
+      "github": "https://github.com/monasharifi",
+      "linkedin": "https://linkedin.com/in/monasharifi",
+      "courses": [
+        "PWA Development",
+        "Web 2 — Design"
+      ],
+      "gpa": 3.8,
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Service Workers"
+      ],
+      "hobbies": [
+        "Photography",
+        "Blogging"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Yousef Nouri",
+      "about": "Mobile developer with React Native.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "yousef.nouri@example.com",
+      "github": "https://github.com/yousefnouri",
+      "linkedin": "https://linkedin.com/in/yousefnouri",
+      "courses": [
+        "React Native",
+        "Mobile Development"
+      ],
+      "gpa": 3.7,
+      "skills": [
+        "React Native",
+        "JavaScript",
+        "Redux"
+      ],
+      "hobbies": [
+        "Gaming",
+        "Traveling"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Neda Shariati",
+      "about": "Focused on software testing.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "neda.shariati@example.com",
+      "github": "https://github.com/nedashariati",
+      "linkedin": "https://linkedin.com/in/nedashariati",
+      "courses": [
+        "Software Testing",
+        "Quality Assurance"
+      ],
+      "gpa": 3.85,
+      "skills": [
+        "Selenium",
+        "Jest",
+        "Cypress"
+      ],
+      "hobbies": [
+        "Reading",
+        "Traveling"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Arman Ghanbari",
+      "about": "Software architecture enthusiast.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "arman.ghanbari@example.com",
+      "github": "https://github.com/armanghanbari",
+      "linkedin": "https://linkedin.com/in/armanghanbari",
+      "courses": [
+        "Software Architecture",
+        "Design Patterns"
+      ],
+      "gpa": 3.8,
+      "skills": [
+        "UML",
+        "Architecture Design",
+        "C#"
+      ],
+      "hobbies": [
+        "Reading",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Mahsa Karimi",
+      "about": "Vue.js developer.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "mahsa.karimi@example.com",
+      "github": "https://github.com/mahsakarimi",
+      "linkedin": "https://linkedin.com/in/mahsakarimi",
+      "courses": [
+        "Vue.js Basics",
+        "Web 2 — Design"
+      ],
+      "gpa": 3.7,
+      "skills": [
+        "Vue.js",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "hobbies": [
+        "Photography",
+        "Painting"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Parham Ahmadian",
+      "about": "Focused on web security testing.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "parham.ahmadian@example.com",
+      "github": "https://github.com/parhamahmadian",
+      "linkedin": "https://linkedin.com/in/parhamahmadian",
+      "courses": [
+        "Web Security",
+        "Penetration Testing"
+      ],
+      "gpa": 3.8,
+      "skills": [
+        "Security Audits",
+        "Penetration Testing",
+        "Python"
+      ],
+      "hobbies": [
+        "Gaming",
+        "Cycling"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Raha Moradi",
+      "about": "Loves learning new frameworks.",
+      "avatar": "https://via.placeholder.com/320",
+      "email": "raha.moradi@example.com",
+      "github": "https://github.com/rahamoradi",
+      "linkedin": "https://linkedin.com/in/rahamoradi",
+      "courses": [
+        "Web 2 — Design",
+        "React Basics",
+        "Vue.js Basics"
+      ],
+      "gpa": 3.9,
+      "skills": [
+        "React",
+        "Vue.js",
+        "HTML",
+        "CSS"
+      ],
+      "hobbies": [
+        "Traveling",
+        "Blogging"
+      ]
+    }
+  ],
+  "instructor": {
+    "id": 1,
+    "name": "Dr. Jane Doe",
+    "bio": "Experienced in teaching web applications and frontend development.",
+    "avatar": "https://via.placeholder.com/150",
+    "email": "jane.doe@example.com",
+    "office": "Room 204, Computer Science Building",
+    "officeHours": "Mon & Wed 10:00 AM - 12:00 PM",
+    "courses": [
+      "Web 2 — Design and Development",
+      "Advanced JavaScript",
+      "React Fundamentals"
+    ],
+    "linkedin": "https://linkedin.com/in/janedoe",
+    "website": "https://janedoe.com"
+  }
+}
