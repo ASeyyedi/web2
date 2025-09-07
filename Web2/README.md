@@ -1,5 +1,5 @@
-#Installation and Running
+# Installation and Running
 
-npm install
-json-server --watch db.json --port 5000
-npm run dev
+1.npm install
+2. json-server --watch db.json --port 5000
+3.npm run dev
