@@ -8,13 +8,13 @@ function CourseIntro({ course }) {
     description:
       "This course covers advanced web development topics, SPA principles, state management, and security best practices.",
     units: 3,
-    term: "Fall 2025",
+    term: "Bahman 1403",
   };
 
   const currentCourse = course || defaultCourse;
 
   return (
-    <motion.div
+    <motion.div id="course"
       initial={{ opacity: 0, y: 0 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}

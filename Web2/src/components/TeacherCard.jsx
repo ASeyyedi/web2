@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 // eslint-disable-next-line no-unused-vars
-import { motion } from 'framer-motion';
-import { FaLinkedin, FaGlobe } from 'react-icons/fa';
-import axios from 'axios';
+import { motion } from "framer-motion";
+import { FaLinkedin, FaGlobe } from "react-icons/fa";
+import axios from "axios";
 
 function TeacherCard() {
   const [instructor, setInstructor] = useState(null);
@@ -11,10 +11,10 @@ function TeacherCard() {
   useEffect(() => {
     async function fetchInstructor() {
       try {
-        const res = await axios.get('http://localhost:3001/instructor');
+        const res = await axios.get("http://localhost:3001/instructor");
         setInstructor(res.data);
       } catch (err) {
-        console.error('Error fetching instructor:', err);
+        console.error("Error fetching instructor:", err);
       } finally {
         setLoading(false);
       }
@@ -23,7 +23,8 @@ function TeacherCard() {
   }, []);
 
   if (loading) return <p className="text-center p-6">Loading instructor...</p>;
-  if (!instructor) return <p className="text-center p-6">Instructor data not found.</p>;
+  if (!instructor)
+    return <p className="text-center p-6">Instructor data not found.</p>;
 
   return (
     <motion.div
@@ -38,18 +39,30 @@ function TeacherCard() {
         <img
           src={instructor.avatar}
           alt={instructor.name}
-          className="w-56 h-56 md:w-64 md:h-64 rounded-full object-cover border-4 border-orange-300 shadow-lg"
+          className="w-56 h-56 md:w-64 md:h-64 rounded-full object-cover border-4 border-orange-300 shadow-lg object-top"
         />
       </div>
 
       {/* Info */}
       <div className="flex-1 space-y-4 text-center md:text-left">
-        <h2 className="text-5xl font-extrabold text-gray-800 truncate">{instructor.name}</h2>
+        <h2 className="text-5xl font-extrabold text-gray-800 truncate py-2.5">
+          {instructor.name}
+        </h2>
         <p className="text-lg md:text-xl text-gray-700">{instructor.bio}</p>
-        <p className="text-gray-700"><span className="font-semibold">Email:</span> {instructor.email}</p>
-        <p className="text-gray-700"><span className="font-semibold">Office:</span> {instructor.office}</p>
-        <p className="text-gray-700"><span className="font-semibold">Office Hours:</span> {instructor.officeHours}</p>
-        <p className="text-gray-700"><span className="font-semibold">Courses:</span> {instructor.courses.join(', ')}</p>
+        <p className="text-gray-700">
+          <span className="font-semibold">Email:</span> {instructor.email}
+        </p>
+        <p className="text-gray-700">
+          <span className="font-semibold">Office:</span> {instructor.office}
+        </p>
+        <p className="text-gray-700">
+          <span className="font-semibold">Office Hours:</span>{" "}
+          {instructor.officeHours}
+        </p>
+        <p className="text-gray-700">
+          <span className="font-semibold">Courses:</span>{" "}
+          {instructor.courses.join(", ")}
+        </p>
 
         <div className="flex justify-center md:justify-start space-x-6 mt-6">
           <a

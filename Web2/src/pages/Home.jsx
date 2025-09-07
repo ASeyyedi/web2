@@ -55,8 +55,8 @@ function Home() {
       </div>
 
       {/* Student List */}
-      <section>
-        <h2 className="text-2xl font-bold mb-4">Student List</h2>
+      <section id="students">
+       <h2 className="text-4xl font-extrabold text-gray-800 mb-5">Students List</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {students.map((student) => (
             <StudentCard

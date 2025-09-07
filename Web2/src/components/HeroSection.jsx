@@ -1,11 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// eslint-disable-next-line no-unused-vars
+import { motion } from "framer-motion";
 
 function HeroSection({ course }) {
   return (
-    <section className="bg-gradient-to-r from-orange-400 to-orange-600 text-white rounded-lg shadow-lg p-12 md:p-16 flex flex-col md:flex-row items-center gap-8 md:gap-12 mb-12 transition-all duration-500">
+    <motion.section
+      id="home"
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="bg-gradient-to-r from-orange-400 to-orange-600 text-white rounded-lg shadow-lg p-12 md:p-16 flex flex-col md:flex-row items-center gap-8 md:gap-12 mb-12 transition-all duration-500 mt-20"
+    >
       {/* Text Content */}
-      <div className="flex-1 space-y-6">
+      <motion.div
+        className="flex-1 space-y-6"
+        initial={{ x: -80, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
         <h1 className="text-5xl md:text-6xl font-extrabold">
           {course?.title || "Web 2 Course"}
         </h1>
@@ -13,16 +26,25 @@ function HeroSection({ course }) {
           {course?.summary ||
             "Learn advanced web development concepts including SPA, state management, and security."}
         </p>
-        <Link
-          to="#"
-          className="inline-block mt-6 px-8 py-4 bg-white text-orange-500 font-semibold rounded-lg shadow hover:bg-gray-100 transition-colors duration-300"
-        >
-          Learn More
-        </Link>
-      </div>
+
+        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
+          <Link
+            to="#"
+            className="inline-block mt-6 px-8 py-4 bg-white text-orange-500 font-semibold rounded-lg shadow hover:bg-gray-100 transition-colors duration-300"
+          >
+            Learn More
+          </Link>
+        </motion.div>
+      </motion.div>
 
       {/* Image */}
-      <div className="flex-1 flex justify-center md:justify-end">
+      <motion.div
+        className="flex-1 flex justify-center md:justify-end"
+        initial={{ x: 80, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        whileHover={{ scale: 1.05, rotate: 1 }}
+      >
         <img
           src={
             course?.cover ||
@@ -31,8 +53,8 @@ function HeroSection({ course }) {
           alt="Course"
           className="w-80 h-60 md:w-96 md:h-64 rounded-xl shadow-xl object-cover border-4 border-white"
         />
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 }
 

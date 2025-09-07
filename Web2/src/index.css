@@ -1,4 +1,10 @@
 @import "tailwindcss";
+:root{
+    scroll-behavior: smooth;
+}
 input{
     outline: none;
+}
+#home,#students,#course{
+    scroll-margin-top: 150px;
 }
